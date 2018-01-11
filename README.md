@@ -1,5 +1,3 @@
-# Team Unicorn Official Site
+# Team Unicorn Official Website
 
-Team Unicorn의 공식 사이트입니다.
-
-팀원들의 포트폴리오와 자기소개를 업로드합니다.
+팀원들의 자기소개, 포트폴리오 등을 업로드하는 Official Website 입니다.
