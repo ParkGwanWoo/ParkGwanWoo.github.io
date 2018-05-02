@@ -2,4 +2,4 @@
 
 팀원들의 자기소개, 포트폴리오 등을 업로드하는 Official Website 입니다.
 
-바로가기 -> http://team-unicorn.tk
+바로가기 -> http://ParkGwanWoo.github.io
