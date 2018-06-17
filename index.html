@@ -1,18 +1,116 @@
 <!DOCTYPE html>
-<html lang="ko-kr">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Team Unicorn Official Site"/>
-        <meta name="author" content="DevYeon"/>
-        <meta name="robots" content="ALL"/>
-        <title>Team Unicorn Official Site</title>
-        
-        <link rel="stylesheet" href="css/main.css"/>
-    </head>
+<html>
+<head>
+  <title>Portfolio Site</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <!-- navigation bar -->
+  <div class="navbar">
+    <img src="images/profile_img.png" width="34" height="34">
+    <ul class="menu-right">
+      <li><button id="about-btn">About</button>
+      <li><button id="contact-btn">Contact</button>
+    </ul>
+  </div>
 
-    <body>
-        <h1>Team Unicorn Official Site</h1>
-    </body>
+  <section class="header">
+    <div class="helper"></div><div class="vertical-center">
+      <h1>I'm an engineer</h1>
+      <h2>Junior Fullstack DEVELOPER</h2>
+    </div>
+  </section>
+
+  <!-- about me -->
+  <section class="about">
+    <div class="helper"></div><div class="vertical-center">
+      <h3>About Me</h3>
+      <p>안녕하세요. 저는 프론트엔드와 백엔드를 넘나드는 개발자입니다. 만나서 반가워요!</p>
+
+      <div class="skillset">
+        <div class="skill">
+          <div class="title">HTML5</div>
+
+          <div class="bar">
+            <div class="inner-bar"></div>
+
+            <span class="percentage">90%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="title">CSS3</div>
+
+          <div class="bar">
+            <div class="inner-bar"></div>
+
+            <span class="percentage">90%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="title">jQuery</div>
+
+          <div class="bar">
+            <div class="inner-bar"></div>
+
+            <span class="percentage">85%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="title">Python</div>
+
+          <div class="bar">
+            <div class="inner-bar"></div>
+
+            <span class="percentage">75%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="title">Rails</div>
+
+          <div class="bar">
+            <div class="inner-bar"></div>
+
+            <span class="percentage">70%</span>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="title">Sketch</div>
+
+          <div class="bar">
+            <div class="inner-bar"></div>
+
+            <span class="percentage">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact me -->
+  <section class="contact">
+    <div class="helper"></div><div class="vertical-center">
+      <h3>Contact Me</h3>
+      <p>언제든지 편하게 연락주세요. 감사합니다.</p>
+
+      <div class="my-information">
+          <img src="images/my-profile.jpg">
+          <p>신체등급 현역 3순위로 산업기능요원으로 구직중입니다 :D</p>
+          <p>박관우(<span class="my-email">yeonkevin@icloud.com</span>)</p>
+      </div>
+    </div>
+  </section>
+    
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
