@@ -197,7 +197,7 @@
       margin-bottom: 30px;
   }
 
-  .my-information p {
+  .my-information .info {
       font-size: 20px;
       margin-bottom: 10px;
   }
@@ -205,22 +205,12 @@
   .my-email {
       font-weight: bold;
   }
-  
-  .contact input,
-  .contact textarea {
-    display: block;
-    width: 100%;
-    border-radius: 4px;
-    border: solid 1px #ebebeb;
+
+  .my-information .name {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: gray;
     font-size: 16px;
-    padding: 10px 30px;
   }
-  
-  .contact input {
-    margin-bottom: 24px;
-  }
-  
-  .contact textarea {
-    resize: none;
-    height: 222px;
-  }
+
